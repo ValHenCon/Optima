@@ -1,0 +1,51 @@
+Proyecto Cita-Proyecto | Henriquez Contreras Cesar Valentin
+
+Este repositorio contiene un proyecto dividido en 4 partes principales:
+
+-Frontend: Desarrollado en Angular. (Intento de sumar un extra, creando interfaz grafica, desafortunadamente sin terminar, pido disculpas por adelantado)
+-Backend: Implementado con Spring Boot.
+-Base de Datos: Archivo SQL que contiene el esquema de la base de datos para ser usado con SQL Workbench.
+-Imágenes de Postman: Para pruebas de API.||
+
+Requisitos
+Antes de comenzar, asegúrate de tener instalados los siguientes programas:
+
+- Node.js (para ejecutar el frontend en Angular): Descargar Node.js
+- Angular CLI (para administrar el proyecto Angular): npm install -g @angular/cli
+- JDK 11 o superior (para ejecutar el backend de Spring Boot):
+- Maven (para la construcción y ejecución del proyecto Spring Boot) 
+- SQL Workbench compatible con bases de datos MySQL
+- Postman (para probar las APIs): Descargar Postman
+
+1. Base de Datos (SQL)
+Importar la Base de Datos
+Abre SQL Workbench o cualquier herramienta compatible con MySQL.
+	-Conéctate a tu base de datos MySQL.
+	-Importa el archivo citas_proyecto.sql:
+	-Abre el archivo citas_proyecto.sql en la herramienta.
+	-Ejecuta las consultas para crear las tablas y cargar los datos en la base de datos.
+
+2. Uso de Postman
+El archivo POSTMAN IMG/ contiene imágenes con ejemplos de las peticiones de API que puedes realizar. Estas imágenes te servirán como referencia para probar las rutas del backend.
+
+3. Instrucciones para el Frontend (Angular)
+Importar el Proyecto en Visual Studio Code
+    -Abre Visual Studio Code.
+    -En Visual Studio Code, selecciona "Abrir carpeta" (Open Folder).
+    -Navega hasta la carpeta donde está el proyecto Angular y selecciona la carpeta citas_proyecto.
+    -Espera a que Visual Studio Code cargue el proyecto y las dependencias.
+    -Ctrl + Ñ, colocar en el terminal npm install
+    -Una vez que las dependencias se hayan instalado, ejecuta el servidor de desarrollo Angular con el siguiente comando ng serve
+    -Abre http://localhost:4200/ para ver la aplicación en acción.
+
+4. Instrucciones para el Backend (Spring Boot)
+Abre Spring Tool Suite.
+ -En la barra de menú, selecciona Archivo > Importar (File > Import).
+ -Elige Proyecto existente en espacio de trabajo.
+ -Navega hasta la carpeta del backend cita_proyecto y selecciona la carpeta que contiene el archivo pom.xml.
+ -Haz clic en Finalizar (Finish).
+Ejecutar el Proyecto
+ -Una vez importado el proyecto, busca el archivo.
+ -Ir al Boot dashboard, click derecho y run, ejecutar cita_proyecto, y entrar en open web browser
+ -El servidor de backend debería estar corriendo en http://localhost:8080/.
+
